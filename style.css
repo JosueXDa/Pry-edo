@@ -1,4 +1,9 @@
-body{
-    height: 100%;
-    width: 100%;
+main{
+    display: flex;
+    height: 100vh;
+    width: 100%
+}
+#applet_container{
+    position: relative;
+    margin: auto ;
 }
