@@ -1,9 +1,30 @@
 main{
-    display: flex;
-    height: 100vh;
+    padding-top: 10px;
+    height: auto;
     width: 100%
 }
-#applet_container{
+.img-tam{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+.colums-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-card-ind{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
     position: relative;
-    margin: auto ;
+}
+.navbar-confi{
+    background-color: rgb(112.520718,44.062154,249.437846);
+    box-shadow: rgb(0, 0, 0) 0 10px 20px 0;
+    border-radius: 0 0 5px 5px;
+}
+.footer-confi{
+    background-color: rgb(112.520718,44.062154,249.437846);
+
 }
